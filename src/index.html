@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedResiduos - Protótipo</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="logotipo.png" type="image/png">
+</head>
+<body>
+    <section> 
+        <div class="login-container">
+            <div class="logo">
+                <img src="logotipo.png" alt="Logo do sistema MedResiduos">
+            </div>
+            <h1>Bem-vindo ao MedResiduos</h1>
+            <form>
+                <label for="loginUsuario"><i class="fas fa-user"></i> Usuário ou e-mail</label>
+                <input type="text" id="loginUsuario" placeholder="Digite seu usuário ou e-mail" required aria-label="Usuário ou e-mail" tabindex="1">
+                <label for="loginSenha"><i class="fas fa-lock"></i> Senha</label>
+                <input type="password" id="loginSenha" placeholder="Digite sua senha" required aria-label="Senha" tabindex="2">
+                <button type="button" onclick="window.location.href='principal.html'" aria-label="Entrar" tabindex="3">
+                    <i class="fas fa-sign-in-alt"></i> Entrar
+                </button>
+            </form>
+            <a href="redefinirSenha.html" aria-label="Esqueci minha senha" tabindex="4">
+                <i class="fas fa-key"></i> Esqueci minha senha
+            </a>
+        </div>
+    </section>
+</body>
+</html>
